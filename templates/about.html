@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>About Tomato Leaf Disease Detection</h1>
+<p>This application uses a deep learning model based on EfficientNetB3 with CBAM (Convolutional Block Attention Module) to detect diseases in tomato leaves. The model was trained on a dataset of tomato leaf images and can detect 10 different conditions, including various diseases and healthy leaves.</p>
+<h2>Detectable Conditions:</h2>
+<ul>
+    <li>Bacterial Spot</li>
+    <li>Early Blight</li>
+    <li>Late Blight</li>
+    <li>Leaf Mold</li>
+    <li>Septoria Leaf Spot</li>
+    <li>Spider Mites</li>
+    <li>Target Spot</li>
+    <li>Yellow Leaf Curl Virus</li>
+    <li>Mosaic Virus</li>
+    <li>Healthy</li>
+</ul>
+<p>For more information on these diseases and how to manage them, please consult with a professional agriculturist or refer to trusted agricultural resources.</p>
+{% endblock %}

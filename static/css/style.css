@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#result-container {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#original-image, #gradcam-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#drop-zone:hover {
+    background-color: #f8f9fa;
+}
+
+#drop-zone.highlight {
+    border-color: #007bff;
+    background-color: #e9ecef;
+}
+
+#disease-chart {
+    max-width: 100%;
+    height: 300px;
+}
+
+#loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loading .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
